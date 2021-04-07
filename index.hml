@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <script src="node_modules/@microsoft/signalr/dist/browser/signalr.min.js"></script>
+   <script src="node_modules/jquery/dist/jquery.min.js"></script>
+   <script>
+      $(document).ready(() => {
+         var connection = new signalR.HubConnectionBuilder()
+            .withUrl("https://localhost:5001/myhub")
+            .build();
+
+         connection.start()
+            .then(() => console.log("Bağlantı başarıyla gerçekleştirildi."))
+            .catch(error => console.log("Bağlantı sağlanırken beklenmeyen bir hatayla karşılaşıldı."));
+
+		connection.invoke("JoinRoom", "osman")
+               .catch(error => console.log("Mesaj gönderilirken hata alınmıştır."));
+
+         $("button.send").click(() => {
+            let message = $("#txtMessage").val();
+            connection.invoke("SendMessageToGroup", "osman", message)
+               .catch(error => console.log("Mesaj gönderilirken hata alınmıştır.", error));
+         });
+		 
+		  $("button.join").click(() => {
+		   let room = $("#roomName").val();
+		 connection.invoke("JoinRoom", room)
+               .catch(error => console.log("Mesaj gönderilirken hata alınmıştır."));
+			   $("#rooms").append(`<li>${room}</li>`);
+         });
+
+         console.log(connection.connectionState)
+
+
+         connection.on("receiveMessage", message => {
+            $("#messages").append(`${message}<br>`);
+         });
+
+      });
+   </script>
+</head>
+
+<body>
+<style>
+	#rooms{list-style:none;padding:0;max-width:200px;}
+	#rooms li{background:#dc143c;color:#fff;font-weight:600;padding:7px 14px;border-radius:5px;margin-bottom:7px;}
+	
+	.flex-panel{    display: flex;
+    border: 1px solid #000;
+    padding: 7px 10px;
+    max-width: 337px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+    flex-direction: row;}
+	.flex-panel div{background:blue;border:1px solid #000;padding:17px 25px;border-radius:6px;margin:5px;color:#fff;order:4;}
+</style>
+<div><input type="text" id="roomName"><button class="join">Katıl</button></div>
+   <input type="text" id="txtMessage"> <button class="send">Gönder</button>
+   <h3>Odalar</h3>
+   <ul id="rooms"></ul>
+   <h3>Mesajlar</h3>
+   <div class="selected-room"></div>
+   <ul id="messages"></ul>
+   
+   <h3>Flex</h3>
+   <div class="flex-panel">
+	<div>1</div><div style="order:1;color:red;">2</div><div>3</div><div>4</div><div>5</div>
+	<div>6</div><div>7</div><div>8</div><div>9</div><div>10</div>
+   </div>
+   
+
+</body>
+</html>

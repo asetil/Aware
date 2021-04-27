@@ -1,0 +1,40 @@
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\SignalRExample.exe
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\SignalRExample.deps.json
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\SignalRExample.runtimeconfig.json
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\SignalRExample.runtimeconfig.dev.json
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\SignalRExample.dll
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\SignalRExample.pdb
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.csprojAssemblyReference.cache
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.AssemblyInfoInputs.cache
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.AssemblyInfo.cs
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.csproj.CoreCompileInputs.cache
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.RazorTargetAssemblyInfo.cache
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\staticwebassets\SignalRExample.StaticWebAssets.Manifest.cache
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\staticwebassets\SignalRExample.StaticWebAssets.xml
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.dll
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.pdb
+C:\Users\Gençay\Desktop\Bilgeadam Uzakatan Eğitim\03.09.2020 Ders Notları\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.genruntimeconfig.cache
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\SignalRExample.exe
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\SignalRExample.deps.json
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\SignalRExample.runtimeconfig.json
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\SignalRExample.runtimeconfig.dev.json
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\SignalRExample.dll
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\bin\Debug\netcoreapp3.1\SignalRExample.pdb
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.csprojAssemblyReference.cache
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.AssemblyInfoInputs.cache
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.AssemblyInfo.cs
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.csproj.CoreCompileInputs.cache
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\staticwebassets\SignalRExample.StaticWebAssets.Manifest.cache
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\staticwebassets\SignalRExample.StaticWebAssets.xml
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\scopedcss\bundle\SignalRExample.styles.css
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.RazorTargetAssemblyInfo.cache
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.dll
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.pdb
+C:\Users\osokuoglu\Downloads\SignalRExample\SignalRExample\SignalRExample\obj\Debug\netcoreapp3.1\SignalRExample.genruntimeconfig.cache

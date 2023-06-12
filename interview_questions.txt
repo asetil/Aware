@@ -1,5 +1,6 @@
 DATABASE
 1. What is the difference between optimistic locking and pessimistic locking?
+   (https://medium.com/@saraswat.prateek1000/optimistic-v-s-pessimistic-locks-6be05ae97391)
    Pessimistic Locking is when you lock the record for your exclusive use until you have finished using it. 
    It has much better integrity than optimistic locking but requires you to be careful with your application design to avoid Deadlocks. 
    The disadvantage is that resource is locked from when you start the transaction until you finished the transaction. During that time the record is not available to other transactions.

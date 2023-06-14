@@ -11,6 +11,7 @@
    the resource is read from storage again and compared to the state that was saved when the resource was first accessed in the transaction. If the two states differ,
    a conflicting update was made, and the transaction will be rolled back.
 
+# C-SHARP
 ## 2. Explain Delegates and Usage with Events?
    A delegate in C# is a type that holds a reference to a method. Namely, a delegate can invoke a method. Events, on the other hand, are a way that a class can notify other classes when something happened. 
 

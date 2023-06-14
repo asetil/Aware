@@ -15,17 +15,20 @@
 ## 2. Explain Delegates and Usage with Events?
    A delegate in C# is a type that holds a reference to a method. Namely, a delegate can invoke a method. Events, on the other hand, are a way that a class can notify other classes when something happened. 
 
-   <code>public delegate void MyDelegate(string message);
+   ``` csharp 
+   public delegate void MyDelegate(string message);
    public class MyClass{
       public event MyDelegate MyEvent;
       public void Trigger(){
         MyEvent!.Invoke("Hello");
       }
     }
+
     public class MyProgram{
         public static void Main(){
           var deneme = new MyClass();
           deneme.MyEvent+= (msg)=>{Console.WriteLine(msg);}
           deneme.Trigger();
         }
-     }<code>
+     } 
+     ```

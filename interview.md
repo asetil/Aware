@@ -12,7 +12,7 @@
    a conflicting update was made, and the transaction will be rolled back.
 
 # C-SHARP
-## 2. Explain Delegates and Usage with Events?
+## 1. Explain Delegates and Usage with Events?
    A delegate in C# is a type that holds a reference to a method. Namely, a delegate can invoke a method. Events, on the other hand, are a way that a class can notify other classes when something happened. 
 
    ``` csharp 
@@ -31,4 +31,60 @@
           deneme.Trigger();
         }
      } 
-     ```
+```
+
+# JavaScript
+## 1. What is the output of below code?
+``` javascript
+setTimeout(() => console.log(1), 0);
+
+console.log(2);
+
+new Promise(res => {
+  console.log(3)
+  res();
+}).then(() => console.log(4));
+
+console.log(5);
+``` 
+
+## 2. Explain "use strict"?  What is output?
+The purpose of "use strict" is to indicate that the code should be executed in "strict mode".
+With strict mode, you can not, for example, use undeclared variables.
+
+``` javascript
+'use strict';
+
+function foo() {
+  console.log("THIS IS =>", this);
+}
+
+function callFoo(fn) {
+  fn();
+}
+
+let obj = { foo };
+
+callFoo(obj.foo);
+```
+## 3. What is output?
+``` javascript
+'use strict';
+var x = 5;
+var y = 5;
+
+function Operations(op1 = x, op2 = y) {
+  this.x = op1;
+  this.y = op2;
+};
+
+Operations.prototype.sum = () => this.x + this.y;
+
+const op = new Operations(10, 20);
+
+console.log(op.sum());
+```
+Arrow functions don’t have their own this. Instead this inside an arrow function’s body points to the this value into the scope the arrow function is defined within.
+Our function is defined in the global scope.
+this in global scope refers to the global object (even in strict mode). Therefore the answer is 10.
+

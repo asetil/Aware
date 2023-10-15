@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EntityCreator
+namespace CSharpFeatures
 {
     record class studentInfo(string StudentFName, string StudentMName, string StudentLName);
 

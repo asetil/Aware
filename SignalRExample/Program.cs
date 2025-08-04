@@ -55,6 +55,7 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddSingleton<IJwtService, JwtService>();
 builder.Services.AddSingleton<IRequestSigningService, RequestSigningService>();
 builder.Services.AddSingleton<IBrowserFingerprintService, BrowserFingerprintService>();
+builder.Services.AddSingleton<ICryptoService, CryptoService>();
 
 // Configure Rate Limiting
 builder.Services.AddRateLimiter(options =>

@@ -1,6 +1,16 @@
-# Advanced API Security Implementation
+# Advanced API Security Implementation with CryptoJS Enhancement
 
-This solution implements multiple layers of security to prevent unauthorized request replay attacks from tools like Postman, curl, or other API clients. While it's impossible to completely prevent all attacks, this implementation makes it significantly harder for attackers to abuse your API.
+This solution implements multiple layers of security to prevent unauthorized request replay attacks from tools like Postman, curl, or other API clients. The enhanced version uses **CryptoJS** for robust client-side cryptographic operations, making it extremely difficult for attackers to abuse your API.
+
+## 🆕 CryptoJS Enhancements
+
+The enhanced version adds:
+- **Client-side AES-256 encryption** of all sensitive data
+- **HMAC-SHA256 signatures** with proper key derivation
+- **Secure handshake protocol** for key exchange
+- **Client-side entropy collection** for enhanced randomness
+- **PBKDF2 password hashing** for secure credentials
+- **Real-time cryptographic operations** with visual feedback
 
 ## Security Layers Implemented
 
@@ -98,7 +108,11 @@ cd SignalRExampleUI
 npm install
 ```
 
-2. Open `secure-index.html` in a browser (serve via HTTP server, not file://)
+2. Choose your demo version:
+   - **Basic Version**: Open `secure-index.html` in a browser
+   - **CryptoJS Enhanced**: Open `crypto-demo.html` in a browser (recommended)
+   
+   **Note**: Serve via HTTP server, not file://
 
 3. Use the demo credentials:
    - Username: `demo`
